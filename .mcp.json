@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "structure-files": {
+      "type": "stdio",
+      "command": "bash",
+      "args": ["scripts/run_mcp.sh"]
+    }
+  }
+}
