@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+
+# Runtime proposals and generated audit/output files.
+examples/.dsh-structure-proposals/
+*.audit.json
+*.processed.*
+*.converted.*
+*.transformed.*
+*.with-H.cif
+*.with-bonds.cif
+*.ts-candidate.*
+ts-path.extxyz
+ts-search-report.json
